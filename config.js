@@ -4,10 +4,10 @@
 function initConfig(){
     var configInfo={
         mysqlConfig:{
-            'host':'192.0.0.1',
+            'host':'127.0.0.1',
             'user':'root',
             'password':'977865769',
-            'datebase':'wjkblog'
+            'database':'wjkblog'
         }
     };
     return configInfo;
