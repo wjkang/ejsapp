@@ -6,4 +6,5 @@ var article=require("./controllers/article");
 
 module.exports = function (app) {
     app.get("/", article.GetArticles);
+    app.get("/AddArticle",article.AddArticle);
 }

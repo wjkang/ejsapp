@@ -11,3 +11,7 @@ exports.GetArticles=function(req,res){
         res.render("index",{rows:rows});
     });
 };
+
+exports.AddArticle=function(req,res){
+    res.render("editArticle");
+}
