@@ -1,0 +1,26 @@
+{
+  "name": "ejsapp",
+  "description": "ejsapp",
+  "main": "",
+  "authors": [
+    "Administrator <977865769@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ejsapp"
+  ],
+  "homepage": "https://github.com/wjkang/ejsapp",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.0"
+  }
+}
